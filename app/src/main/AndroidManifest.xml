@@ -12,10 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidFundamentals2Nov">
         <activity
+            android:name=".MainActivityWeek3"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivityWeek3"
+            android:name=".MainActivityWeek4"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
