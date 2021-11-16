@@ -49,7 +49,6 @@ public class MainActivityWeek5 extends AppCompatActivity {
                         Bundle bundle = intent.getExtras();
                         String message = bundle.getString(SecondMainActivityWeek5.SECOND_MESSAGE_KEY);
                         tvMessage.setText(message);
-
                     }
 
                 } else {
@@ -140,6 +139,11 @@ public class MainActivityWeek5 extends AppCompatActivity {
         super.onResume();
 
         Log.d(TAG, "onResume");
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
     }
 
     @Override
