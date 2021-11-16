@@ -1,6 +1,8 @@
 package com.example.androidfundamentals2nov;
 
-public class Person {
+import java.io.Serializable;
+
+public class Person implements Serializable {
     private String name;
     private String country;
     private String age;
