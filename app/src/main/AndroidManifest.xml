@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.androidfundamentals2nov" >
+    package="com.example.androidfundamentals2nov">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -10,17 +10,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AndroidFundamentals2Nov" >
+        android:theme="@style/Theme.AndroidFundamentals2Nov">
         <activity
-            android:name=".MainActivity2"
-            android:exported="false"
-            android:label="@string/title_activity_main2"
-            android:theme="@style/Theme.AndroidFundamentals2Nov.NoActionBar" />
-        <activity
-            android:name=".NavigationDrawerActivity"
-            android:exported="false"
-            android:label="@string/title_activity_navigation_drawer"
-            android:theme="@style/Theme.AndroidFundamentals2Nov.NoActionBar" />
+            android:name=".MainActivityWeek6"
+            android:exported="false" />
         <activity
             android:name=".MainActivityWeek5"
             android:exported="false" />
@@ -37,8 +30,8 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivityWeek6"
-            android:exported="true" >
+            android:name=".week8.MainActivityWeek8"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

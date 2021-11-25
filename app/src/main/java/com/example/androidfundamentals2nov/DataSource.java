@@ -49,6 +49,11 @@ public class DataSource {
         person8.setCountry("Bucuresti");
         person8.setAge("12");
 
+        Person person9 = new Person();
+        person9.setName("Roxana");
+        person9.setCountry("Bucuresti");
+        person9.setAge("12");
+
         List<Person> persons = new ArrayList<>();
         persons.add(person1);
         persons.add(person2);
@@ -58,6 +63,7 @@ public class DataSource {
         persons.add(person6);
         persons.add(person7);
         persons.add(person8);
+        persons.add(person9);
 
         return persons;
     }
