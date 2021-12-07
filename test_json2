@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Amy",
+    "surname": "Kelly",
+    "address": "Paris"
+  },
+  {
+    "name": "James",
+    "surname": "Bond",
+    "address": "London"
+  },
+  {
+    "name": "Michael",
+    "surname": "Aeq",
+    "address": "Stockholm"
+  }
+]

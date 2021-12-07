@@ -31,15 +31,6 @@ android {
         debug {
             minifyEnabled true
         }
-
-        getByName("release") {
-            isShrinkResources = true
-            isMinifyEnabled = true
-            proguardFiles(
-                    getDefaultProguardFile("proguard-android.txt"),
-                    "proguard-rules.pro"
-            )
-        }
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
