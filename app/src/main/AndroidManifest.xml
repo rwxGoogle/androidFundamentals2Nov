@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidFundamentals2Nov">
         <activity
+            android:name=".week8.MainActivityWeek8"
+            android:exported="false" />
+        <activity
             android:name=".MainActivityWeek6"
             android:exported="false" />
         <activity
@@ -30,7 +33,7 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".week8.MainActivityWeek8"
+            android:name=".week9.MainActivityWeek9"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
